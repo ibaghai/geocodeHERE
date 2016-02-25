@@ -18,8 +18,8 @@ geocodeHERE_simple <- function(search, App_id="", App_code=""){
   if(!is.character(App_code)){stop("'App_code' must be a character string")}
 
   if(App_id=="" & App_code==""){    
-    App_id <- "inwresuveWra5ebewaSweh"
-    App_code <- "zBWCuMTr-PrXwr6pc5uqLg"
+    App_id <- "TS4eVd0pSyefK0v319FY"
+    App_code <- "49ELQDjYG9NXAwVGm-Po6Q"
     base_url <- "http://geocoder.cit.api.here.com/6.2/geocode.json"
   }else{
     base_url <- "http://geocoder.api.here.com/6.2/geocode.json"
